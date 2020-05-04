@@ -11,61 +11,49 @@ presskit_download_link: false
 # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
 # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon: # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: Write a short tagline for your app.
+app_icon: assets/temp-icon.png # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: "Clocked: Your Drag Queen Guide" # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description: You've gotta Clock 'em all!
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
 your_name: Matthew Smith
-your_link: https://www.clocked.me
+your_link: mailto:support@clocked.me
 your_city: San Francisco
 email_address: support@clocked.me
-facebook_username:
-# instagram_username                        : ebaehr
+instagram_username: clocked_app
 twitter_username: ClockedApp
+facebook_username:
 # github_username                           : emilbaehr
 # youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
-  - title: GitHub Pages Jekyll Theme
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name: magic
+  - title: Performers
+    description: "Want to know more about your favorite drag queens? Detailed bios, social media info and more!"
+    fontawesome_icon_name: crown
 
-  - title: iPhone Device Preview
-    description: Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name: mobile
+  - title: Favorites
+    description: "Find your favorite drag performers."
+    fontawesome_icon_name: heart
 
-  - title: Video Support
-    description: Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name: play-circle
+  - title: Clocked
+    description: "Want to track which drag queens you’ve already seen? The app makes it easy to tack of your drag experiences."
+    fontawesome_icon_name: stopwatch
 
-  - title: Automatic Icon and Metadata
-    description: Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name: sync
+  - title: Drag Race
+    description: "What was that runway? Who won that challenge? Fast answers, detailed episode information."
+    fontawesome_icon_name: flag-checkered
 
-  - title: Easy to Tweak
-    description: Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: adjust
+  - title: Spoiler Protection
+    description: "Hide the winners and placement details for any season, all with the flick of your wrist, I mean flick of a switch."
+    fontawesome_icon_name: eye-slash
 
-  - title: Feature List
-    description: Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: star
-
-  - title: Smart App Banner
-    description: Display a smart app banner on iOS devices.
-    fontawesome_icon_name: arrow-alt-circle-down
-
-  - title: Social Links
-    description: Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: link
-
-  - title: FontAwesome Support
-    description: Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: info-circle
+  - title: Premium
+    description: "Help support the app and future updates by going Premium! Ad-free and a bonus sticker pack included."
+    fontawesome_icon_name: medal
 
   - title: # New Feature Title
     description: # New Feature Description
@@ -73,33 +61,34 @@ features:
 
 # Theme Settings
 topbar_color: "#000000"
-topbar_transparency: 0.1
+topbar_transparency: 0.2
 topbar_title_color: "#ffffff"
 
-cover_image: assets/headerimage.png # Replace with alternative image path or image URL.
+cover_image: assets/background.jpg # Replace with alternative image path or image URL.
+# cover_overlay_color: "#363b3d"
 cover_overlay_color: "#363b3d"
-cover_overlay_transparency: 0.8
+cover_overlay_transparency: 0.6
 
 device_color: black # Set to: blue, black, yellow, coral or white.
 
-body_background_color: "#ffffff"
+body_background_color: "#000000"
 
-link_color: "#1d63ea"
+link_color: "#FF00AD"
 
 app_title_color: "#ffffff"
 app_price_color: "#ffffff"
 app_description_color: "#ffffff"
 
-feature_title_color: "#000000"
-feature_text_color: "#666666"
+feature_title_color: "#FFFFFF"
+feature_text_color: "#e6e6e6"
 
-feature_icons_foreground_color: "#1d63ea"
+feature_icons_foreground_color: "#FF00AD"
 feature_icons_background_color: "#e6e6e6"
 
-social_icons_foreground_color: "#666666"
+social_icons_foreground_color: "#FF00AD"
 social_icons_background_color: "#e6e6e6"
 
-footer_text_color: "#666666"
+footer_text_color: "#e6e6e6"
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
