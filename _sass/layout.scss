@@ -602,6 +602,15 @@ footer {
 .footerLinks a:last-child {
   margin-right: 0px;
 }
+.copyright {
+  color: $footer-text-color;
+  display: block;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  // padding-top: 10px;
+  // padding-bottom: 10px;
+}
 
 @media only screen and (max-width: 768px) {
   .footerLinks {
